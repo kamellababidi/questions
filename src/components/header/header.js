@@ -16,7 +16,6 @@ class Header extends Component {
           </Button>
         </div>
       </div>
-
       </header>
     );
   }
