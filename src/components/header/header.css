@@ -1,12 +1,6 @@
 .App-header {
   background-color: #222;
-  height: 80px;
+  height: 12vh;
   padding: 20px;
-  display: flex;
-  flexItems: 2;
-  flex-direction: 'row';
   color: white;
-  margin: 33;
-}
-.progressPar: {
 }

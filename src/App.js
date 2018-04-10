@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header/header'
+import QuestionsList from './components/questionsList/questionsList'
 class App extends Component {
   constructor() {
     super();
@@ -10,8 +11,9 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
+      <div className="container-fluid App">
         <Header />
+        <QuestionsList />
       </div>
     );
   }

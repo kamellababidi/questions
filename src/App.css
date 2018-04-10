@@ -1,5 +1,7 @@
-.App {
+
+.App: {
   text-align: center;
+  background-color: lightblue;
 }
 
 .App-title {

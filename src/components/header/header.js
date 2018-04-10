@@ -7,10 +7,10 @@ class Header extends Component {
     return (
       <header className="App-header">
       <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-10">
           <Line className="progressPar" percent="10" strokeColor="red" /><span>10%</span>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-2">
           <Button bsStyle="danger" bsSize="large">
             Resume
           </Button>
