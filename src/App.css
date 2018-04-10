@@ -1,7 +1,7 @@
 
 .App: {
-  text-align: center;
-  background-color: lightblue;
+  /* text-align: center; */
+  /* background-color: lightblue; */
 }
 
 .App-title {
@@ -10,7 +10,4 @@
 
 .App-intro {
   font-size: large;
-}
-.kamel {
-  background-color: lightblue;
 }

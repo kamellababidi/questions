@@ -8,8 +8,13 @@ class Question extends Component {
     return (
       <div className="question">
         <div className="qu">
+          <h3>
+            Question Number: 1
+          </h3>
+          <hr/>
+          <p>sadsssss</p>
         </div>
-        <div className="an">
+        <div className="qu">
         </div>
       </div>
     );

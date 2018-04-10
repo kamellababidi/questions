@@ -1,6 +1,6 @@
 .questionsList {
   background-color: #20314c;
-  height: 35.2vh;
+  /* height: 35.2vh; */
   padding: 20px;
   color: #000;
   text-align: center;
@@ -13,12 +13,9 @@
 }
 
 .element {
- width: 70px;
- height: 70px;
  background-color: cyan;
  margin: 10px;
  padding: 10px;
- padding-top: 10px;
 }
 .cubeNumber: {
  text-align: center;

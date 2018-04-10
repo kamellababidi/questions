@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import './questionslist.css';
-import data from '../../data'
 class QuestionsList extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {
-      data: data
+      questions: this.props.questions || []
     }
-    console.log(data);
+    console.log(this.state.questions,"llll");
   }
   render() {
     return (
       <div className="questionsList">
         <div class="row">
-          {this.state.data.map((question) => {
+          {this.state.questions.map((question) => {
             return (
               <div class="col-sm-2 qube">
                 <div className="element">
