@@ -10,17 +10,26 @@ class App extends Component {
     super();
     this.state = {
       data : data,
-      isMobile: window.innerWidth <= 500
+      isMobile: window.innerWidth <= 500,
+      selectedQuestions: data[0]
     }
+  }
+  selectQuestion (question) {
+    alert(question);
+    console.log(question);
+    this.setState({
+      selectedQuestions: question
+    })
   }
   render() {
     return (
       <div className="App">
         <Header />
         <QuestionsList
-          questions={this.state.data}
+          questions = {this.state.data}
+          selectQuestion = { this.selectQuestion.bind(this) }
         />
-        <Question />
+        
         <Controller />
       </div>
     );
